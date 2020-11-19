@@ -1,0 +1,14 @@
+let FB = 30;
+for (var i = 1; i < 30; i + 30) {
+    switch(true) {
+       case i%3 === 0:
+           console.log("Fizz");
+           break; 
+       case i%5 === 0:  
+          console.log("Buzz");
+          break;
+       case i%15 === 0: //check for divisibility by both 3 & 5
+           console.log("FizzBuzz");
+           break;
+     };
+ };   

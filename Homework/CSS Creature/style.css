@@ -1,0 +1,138 @@
+.creature {
+    margin: 300px;
+}
+
+.body {
+    height: 500px;
+    width: 300px;
+    background-color: purple;
+    border-radius: 160px 160px 14px 14px;
+    border: hidden;
+    z-index: -1;
+    margin: 50px;
+}
+
+.eye {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  background-color: white;
+  border: solid 1px white;
+  z-index: 1;
+  position: relative;
+  top: 8em;
+  left: 8em;
+}
+
+#inner-eye {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background-color: darkblue;
+  border: solid 1px darkblue;
+  z-index: 1;
+  position: relative;
+  left: 1.9em;
+  top: 1.5em;
+}
+
+.mouth{
+    height 7px;
+    width 0;
+    border: solid 0px white;
+    background-color: white;
+    z-index: 0;
+    position: relative;
+    top: 250px;
+}
+
+#tooth1 {
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 100px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid grey;
+    z-index: 1;
+}
+
+#tooth2 {
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 75px;
+    left: 52px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid grey;
+    z-index: 1;
+}
+
+#tooth3 {
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 50px;
+    left: 102px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid grey;
+    z-index: 1;
+}
+
+#tooth4 {
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 25px;
+    left: 152px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid grey;
+    z-index: 1;
+}
+
+#tooth5 {
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 0px;
+    left: 202px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid grey;
+    z-index: 1;
+}
+
+#right-leg {
+    width: 10px;
+    height: 50px;
+    border: solid 20px purple;
+    background-color: purple;
+    position: relative;
+    left: 215px;
+    bottom: 70px;
+    z-index: 1;
+    border-radius: 0 0 20px 20px;
+}
+
+#left-leg {
+    width: 10px;
+    height: 50px;
+    border: solid 20px purple;
+    background-color: purple;
+    position: relative;
+    left: 100px;
+    bottom: 160px;
+    z-index: 1;
+    border-radius: 0 0 20px 20px;
+}
+
+#right-arm {
+    width: 10px;
+    height: 50px;
+    background-color: purple;
+    border: solid 20px purple;
+    position: relative;
+}

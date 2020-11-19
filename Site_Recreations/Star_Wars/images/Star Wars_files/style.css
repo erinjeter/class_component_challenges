@@ -1,0 +1,16 @@
+body {
+  background: black;
+  background-image: url(Site_Recreations/Star_Wars/images/space.jpg);
+  color: white;
+}
+
+ul {
+  color: white;
+  float: left;
+  display: inline-block;
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+}
